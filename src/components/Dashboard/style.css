@@ -1,0 +1,21 @@
+.homeDiv{
+    background: url('../../images/bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    filter: brightness(70%) blur(2.5px);
+}
+.loginDiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 100%
+}
+.loginBtn{
+    color: white;
+    background: #4267b2;
+}
+.main{
+    color: white
+}

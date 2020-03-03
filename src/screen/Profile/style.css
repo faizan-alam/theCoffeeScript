@@ -1,0 +1,46 @@
+.img-div{
+    width: 230px;
+    height: 230px;
+    background: rgba(213, 125, 240, 0.6);
+    cursor: pointer;
+    margin: 5px;
+}
+.img-upload{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width:220px;
+    height: 220px;
+    transform: translate(-50% , -50%);
+    opacity: 0;
+    cursor: pointer;
+}
+.img-select{
+    opacity: .5;
+}
+.img-bev{
+    transition:transform .5s ease-in-out;
+}
+.img-bev:hover{
+    cursor: pointer;
+    transform: rotate(20deg);
+}
+.min{
+    width: 200px;
+    margin: 12px;
+    box-sizing: border-box;
+    padding: 25px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid rgba(213, 125, 240, 0.6); 
+}
+.min h1 {
+    font-size: 2.8em
+}
+.timeDiv{
+    margin-left: 10%
+}
+.time{
+    color: white;
+    background-color: rgba(213, 125, 240);
+}
